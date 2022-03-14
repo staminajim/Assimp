@@ -45,8 +45,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "StepFileImporter.h"
 #include "../../Importer/STEPParser/STEPFileReader.h"
-#include <assimp/importerdesc.h>
-#include <assimp/DefaultIOSystem.h>
+#include <Assimp/importerdesc.h>
+#include <Assimp/DefaultIOSystem.h>
 
 namespace Assimp {
 namespace StepFile {

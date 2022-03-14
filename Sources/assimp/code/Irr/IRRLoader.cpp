@@ -52,19 +52,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "Irr/IRRLoader.h"
 #include "Common/Importer.h"
 
-#include <assimp/ParsingUtils.h>
-#include <assimp/fast_atof.h>
-#include <assimp/GenericProperty.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/StandardShapes.h>
-#include <assimp/MathFunctions.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/mesh.h>
-#include <assimp/material.h>
-#include <assimp/scene.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/postprocess.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/GenericProperty.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/StandardShapes.h>
+#include <Assimp/MathFunctions.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/mesh.h>
+#include <Assimp/material.h>
+#include <Assimp/scene.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/postprocess.h>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 

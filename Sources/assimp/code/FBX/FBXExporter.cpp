@@ -47,15 +47,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "FBXCommon.h"
 #include "FBXUtil.h"
 
-#include <assimp/version.h> // aiGetVersion
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/StreamWriter.h> // StreamWriterLE
-#include <assimp/Exceptional.h> // DeadlyExportError
-#include <assimp/material.h> // aiTextureType
-#include <assimp/scene.h>
-#include <assimp/mesh.h>
+#include <Assimp/version.h> // aiGetVersion
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/StreamWriter.h> // StreamWriterLE
+#include <Assimp/Exceptional.h> // DeadlyExportError
+#include <Assimp/material.h> // aiTextureType
+#include <Assimp/scene.h>
+#include <Assimp/mesh.h>
 
 // Header files, standard library.
 #include <memory> // shared_ptr

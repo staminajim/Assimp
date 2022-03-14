@@ -48,15 +48,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "X/XFileExporter.h"
 #include "PostProcessing/ConvertToLHProcess.h"
 
-#include <assimp/Bitmap.h>
-#include <assimp/BaseImporter.h>
-#include <assimp/fast_atof.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/DefaultIOSystem.h>
-#include <assimp/Exceptional.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
-#include <assimp/light.h>
+#include <Assimp/Bitmap.h>
+#include <Assimp/BaseImporter.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/DefaultIOSystem.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/light.h>
 
 #include <ctime>
 #include <set>

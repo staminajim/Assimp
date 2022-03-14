@@ -1,4 +1,4 @@
-﻿/*
+/*
 ---------------------------------------------------------------------------
 Open Asset Import Library (assimp)
 ---------------------------------------------------------------------------
@@ -49,7 +49,7 @@ corresponding preprocessor flag to selectively disable formats.
 */
 
 #include <vector>
-#include <assimp/BaseImporter.h>
+#include <Assimp/BaseImporter.h>
 
 // ------------------------------------------------------------------------------------------------
 // Importers

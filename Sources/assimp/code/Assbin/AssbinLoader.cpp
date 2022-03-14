@@ -52,11 +52,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // internal headers
 #include "Assbin/AssbinLoader.h"
 #include "Common/assbin_chunks.h"
-#include <assimp/MemoryIOWrapper.h>
-#include <assimp/mesh.h>
-#include <assimp/anim.h>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/MemoryIOWrapper.h>
+#include <Assimp/mesh.h>
+#include <Assimp/anim.h>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
 #include <memory>
 
 #ifdef ASSIMP_BUILD_NO_OWN_ZLIB

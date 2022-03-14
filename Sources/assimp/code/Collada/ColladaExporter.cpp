@@ -44,18 +44,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef ASSIMP_BUILD_NO_COLLADA_EXPORTER
 
 #include "ColladaExporter.h"
-#include <assimp/Bitmap.h>
-#include <assimp/MathFunctions.h>
-#include <assimp/fast_atof.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/StringUtils.h>
-#include <assimp/XMLTools.h>
-#include <assimp/DefaultIOSystem.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/scene.h>
+#include <Assimp/Bitmap.h>
+#include <Assimp/MathFunctions.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/StringUtils.h>
+#include <Assimp/XMLTools.h>
+#include <Assimp/DefaultIOSystem.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/scene.h>
 
-#include <assimp/Exceptional.h>
+#include <Assimp/Exceptional.h>
 
 #include <memory>
 #include <ctime>

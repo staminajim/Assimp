@@ -49,7 +49,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // internal headers
 #include "LWOLoader.h"
-#include <assimp/ByteSwapper.h>
+#include <Assimp/ByteSwapper.h>
 
 
 using namespace Assimp;

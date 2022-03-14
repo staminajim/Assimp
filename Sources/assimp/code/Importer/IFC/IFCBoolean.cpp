@@ -46,7 +46,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "code/Importer/IFC/IFCUtil.h"
 #include "code/Common/PolyTools.h"
 #include "code/PostProcessing/ProcessHelper.h"
-#include <assimp/Defines.h>
+#include <Assimp/Defines.h>
 
 #include <iterator>
 #include <tuple>

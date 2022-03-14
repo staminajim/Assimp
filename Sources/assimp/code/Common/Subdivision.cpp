@@ -40,11 +40,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ----------------------------------------------------------------------
 */
 
-#include <assimp/Subdivision.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/SpatialSort.h>
-#include <assimp/Vertex.h>
-#include <assimp/ai_assert.h>
+#include <Assimp/Subdivision.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/SpatialSort.h>
+#include <Assimp/Vertex.h>
+#include <Assimp/ai_assert.h>
 
 #include "PostProcessing/ProcessHelper.h"
 

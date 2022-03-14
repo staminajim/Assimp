@@ -44,10 +44,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief Zip File I/O implementation for #Importer
  */
 
-#include <assimp/ZipArchiveIOSystem.h>
-#include <assimp/BaseImporter.h>
+#include <Assimp/ZipArchiveIOSystem.h>
+#include <Assimp/BaseImporter.h>
 
-#include <assimp/ai_assert.h>
+#include <Assimp/ai_assert.h>
 
 #include <map>
 #include <memory>

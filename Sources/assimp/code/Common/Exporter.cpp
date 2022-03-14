@@ -54,14 +54,14 @@ Here we implement only the C++ interface (Assimp::Exporter).
 
 #ifndef ASSIMP_BUILD_NO_EXPORT
 
-#include <assimp/BlobIOSystem.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/DefaultIOSystem.h>
-#include <assimp/Exporter.hpp>
-#include <assimp/mesh.h>
-#include <assimp/postprocess.h>
-#include <assimp/scene.h>
-#include <assimp/Exceptional.h>
+#include <Assimp/BlobIOSystem.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/DefaultIOSystem.h>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/mesh.h>
+#include <Assimp/postprocess.h>
+#include <Assimp/scene.h>
+#include <Assimp/Exceptional.h>
 
 #include "Common/DefaultProgressHandler.h"
 #include "Common/BaseProcess.h"

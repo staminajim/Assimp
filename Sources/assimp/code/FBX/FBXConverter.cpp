@@ -54,12 +54,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "FBXProperties.h"
 #include "FBXImporter.h"
 
-#include <assimp/StringComparison.h>
-#include <assimp/MathFunctions.h>
+#include <Assimp/StringComparison.h>
+#include <Assimp/MathFunctions.h>
 
-#include <assimp/scene.h>
+#include <Assimp/scene.h>
 
-#include <assimp/CreateAnimMesh.h>
+#include <Assimp/CreateAnimMesh.h>
 
 #include <tuple>
 #include <memory>

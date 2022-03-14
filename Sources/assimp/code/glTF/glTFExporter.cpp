@@ -1,4 +1,4 @@
-﻿/*
+/*
 Open Asset Import Library (assimp)
 ----------------------------------------------------------------------
 
@@ -46,15 +46,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "glTF/glTFAssetWriter.h"
 #include "PostProcessing/SplitLargeMeshes.h"
 
-#include <assimp/Exceptional.h>
-#include <assimp/StringComparison.h>
-#include <assimp/ByteSwapper.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/version.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/material.h>
-#include <assimp/scene.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/StringComparison.h>
+#include <Assimp/ByteSwapper.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/version.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/material.h>
+#include <Assimp/scene.h>
 
 // Header files, standard library.
 #include <memory>

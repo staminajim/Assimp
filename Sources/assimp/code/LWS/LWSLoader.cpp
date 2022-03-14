@@ -52,15 +52,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "PostProcessing/ConvertToLHProcess.h"
 #include "Common/Importer.h"
 
-#include <assimp/ParsingUtils.h>
-#include <assimp/fast_atof.h>
-#include <assimp/SceneCombiner.h>
-#include <assimp/GenericProperty.h>
-#include <assimp/SkeletonMeshBuilder.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/scene.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/GenericProperty.h>
+#include <Assimp/SkeletonMeshBuilder.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 

@@ -49,9 +49,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // internal headers
 #include "3DSLoader.h"
 #include "Common/TargetAnimation.h"
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/StringComparison.h>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/StringComparison.h>
 #include <memory>
 #include <cctype>
 

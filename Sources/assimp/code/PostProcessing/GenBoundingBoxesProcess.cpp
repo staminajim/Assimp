@@ -43,8 +43,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "PostProcessing/GenBoundingBoxesProcess.h"
 
-#include <assimp/postprocess.h>
-#include <assimp/scene.h>
+#include <Assimp/postprocess.h>
+#include <Assimp/scene.h>
 
 namespace Assimp {
 

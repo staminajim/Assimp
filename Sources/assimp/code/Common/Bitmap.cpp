@@ -48,10 +48,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 
-#include <assimp/Bitmap.h>
-#include <assimp/texture.h>
-#include <assimp/IOStream.hpp>
-#include <assimp/ByteSwapper.h>
+#include <Assimp/Bitmap.h>
+#include <Assimp/texture.h>
+#include <Assimp/IOStream.hpp>
+#include <Assimp/ByteSwapper.h>
 
 namespace Assimp {
 

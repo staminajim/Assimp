@@ -44,14 +44,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "OpenGEX/OpenGEXImporter.h"
 #include "PostProcessing/MakeVerboseFormat.h"
 
-#include <assimp/DefaultIOSystem.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/StringComparison.h>
+#include <Assimp/DefaultIOSystem.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/StringComparison.h>
 
 #include <openddlparser/OpenDDLParser.h>
-#include <assimp/scene.h>
-#include <assimp/ai_assert.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/scene.h>
+#include <Assimp/ai_assert.h>
+#include <Assimp/importerdesc.h>
 
 #include <vector>
 

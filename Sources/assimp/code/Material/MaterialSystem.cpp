@@ -44,14 +44,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief Implementation of the material system of the library
  */
 
-#include <assimp/Hash.h>
-#include <assimp/fast_atof.h>
-#include <assimp/ParsingUtils.h>
+#include <Assimp/Hash.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/ParsingUtils.h>
 #include "MaterialSystem.h"
-#include <assimp/types.h>
-#include <assimp/material.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/Macros.h>
+#include <Assimp/types.h>
+#include <Assimp/material.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/Macros.h>
 
 using namespace Assimp;
 

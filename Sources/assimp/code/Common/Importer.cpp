@@ -45,9 +45,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief Implementation of the CPP-API class #Importer
  */
 
-#include <assimp/version.h>
-#include <assimp/config.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/version.h>
+#include <Assimp/config.h>
+#include <Assimp/importerdesc.h>
 
 // ------------------------------------------------------------------------------------------------
 /* Uncomment this line to prevent Assimp from catching unknown exceptions.
@@ -71,19 +71,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "Common/ScenePreprocessor.h"
 #include "Common/ScenePrivate.h"
 
-#include <assimp/BaseImporter.h>
-#include <assimp/GenericProperty.h>
-#include <assimp/MemoryIOWrapper.h>
-#include <assimp/Profiler.h>
-#include <assimp/TinyFormatter.h>
-#include <assimp/Exceptional.h>
-#include <assimp/Profiler.h>
+#include <Assimp/BaseImporter.h>
+#include <Assimp/GenericProperty.h>
+#include <Assimp/MemoryIOWrapper.h>
+#include <Assimp/Profiler.h>
+#include <Assimp/TinyFormatter.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/Profiler.h>
 #include <set>
 #include <memory>
 #include <cctype>
 
-#include <assimp/DefaultIOStream.h>
-#include <assimp/DefaultIOSystem.h>
+#include <Assimp/DefaultIOStream.h>
+#include <Assimp/DefaultIOSystem.h>
 
 #ifndef ASSIMP_BUILD_NO_VALIDATEDS_PROCESS
 #   include "PostProcessing/ValidateDataStructure.h"

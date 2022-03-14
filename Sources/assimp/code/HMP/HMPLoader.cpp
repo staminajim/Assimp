@@ -50,10 +50,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "HMP/HMPLoader.h"
 #include "MD2/MD2FileData.h"
 
-#include <assimp/IOSystem.hpp>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 

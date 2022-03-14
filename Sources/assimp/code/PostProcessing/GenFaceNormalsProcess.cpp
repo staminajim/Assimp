@@ -47,11 +47,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 #include "GenFaceNormalsProcess.h"
-#include <assimp/postprocess.h>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/Exceptional.h>
-#include <assimp/qnan.h>
+#include <Assimp/postprocess.h>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/Exceptional.h>
+#include <Assimp/qnan.h>
 
 
 using namespace Assimp;

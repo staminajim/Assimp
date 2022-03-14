@@ -48,12 +48,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "XFileParser.h"
 #include "XFileHelper.h"
-#include <assimp/fast_atof.h>
-#include <assimp/Exceptional.h>
-#include <assimp/TinyFormatter.h>
-#include <assimp/ByteSwapper.h>
-#include <assimp/StringUtils.h>
-#include <assimp/DefaultLogger.hpp>
+#include <Assimp/fast_atof.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/TinyFormatter.h>
+#include <Assimp/ByteSwapper.h>
+#include <Assimp/StringUtils.h>
+#include <Assimp/DefaultLogger.hpp>
 
 
 using namespace Assimp;

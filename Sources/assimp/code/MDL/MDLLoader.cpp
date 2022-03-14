@@ -52,14 +52,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "MDL/MDLDefaultColorMap.h"
 #include "MD2/MD2FileData.h"
 
-#include <assimp/Macros.h>
-#include <assimp/qnan.h>
-#include <assimp/StringUtils.h>
-#include <assimp/Importer.hpp>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/Macros.h>
+#include <Assimp/qnan.h>
+#include <Assimp/StringUtils.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 

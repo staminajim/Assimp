@@ -49,7 +49,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "Importer/IFC/IFCUtil.h"
 #include "Common/PolyTools.h"
 #include "PostProcessing/ProcessHelper.h"
-#include <assimp/Defines.h>
+#include <Assimp/Defines.h>
 
 namespace Assimp {
 namespace IFC {

@@ -48,12 +48,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "X/XFileParser.h"
 #include "PostProcessing/ConvertToLHProcess.h"
 
-#include <assimp/TinyFormatter.h>
-#include <assimp/Defines.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/TinyFormatter.h>
+#include <Assimp/Defines.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/importerdesc.h>
 
 #include <cctype>
 #include <memory>

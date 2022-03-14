@@ -52,9 +52,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "FindInvalidDataProcess.h"
 #include "ProcessHelper.h"
 
-#include <assimp/Macros.h>
-#include <assimp/Exceptional.h>
-#include <assimp/qnan.h>
+#include <Assimp/Macros.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/qnan.h>
 
 using namespace Assimp;
 

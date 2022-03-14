@@ -46,7 +46,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // internal headers
 #include "VertexTriangleAdjacency.h"
-#include <assimp/mesh.h>
+#include <Assimp/mesh.h>
 
 using namespace Assimp;
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
 ---------------------------------------------------------------------------
 Open Asset Import Library (assimp)
 ---------------------------------------------------------------------------
@@ -48,8 +48,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // internal headers
 #include "ValidateDataStructure.h"
-#include <assimp/BaseImporter.h>
-#include <assimp/fast_atof.h>
+#include <Assimp/BaseImporter.h>
+#include <Assimp/fast_atof.h>
 #include "ProcessHelper.h"
 #include <memory>
 

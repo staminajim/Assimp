@@ -47,14 +47,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef ASSIMP_BUILD_NO_XGL_IMPORTER
 
 #include "XGLLoader.h"
-#include <assimp/ParsingUtils.h>
-#include <assimp/fast_atof.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/fast_atof.h>
 
-#include <assimp/StreamReader.h>
-#include <assimp/MemoryIOWrapper.h>
-#include <assimp/mesh.h>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/StreamReader.h>
+#include <Assimp/MemoryIOWrapper.h>
+#include <Assimp/mesh.h>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
 #include <cctype>
 #include <memory>
 

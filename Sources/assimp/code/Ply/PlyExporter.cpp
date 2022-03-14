@@ -47,12 +47,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "PlyExporter.h"
 #include <memory>
 #include <cmath>
-#include <assimp/Exceptional.h>
-#include <assimp/scene.h>
-#include <assimp/version.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/qnan.h>
+#include <Assimp/Exceptional.h>
+#include <Assimp/scene.h>
+#include <Assimp/version.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/qnan.h>
 
 
 //using namespace Assimp;

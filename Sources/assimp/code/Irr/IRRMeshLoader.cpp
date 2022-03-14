@@ -48,16 +48,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef ASSIMP_BUILD_NO_IRRMESH_IMPORTER
 
 #include "IRRMeshLoader.h"
-#include <assimp/ParsingUtils.h>
-#include <assimp/fast_atof.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/fast_atof.h>
 #include <memory>
-#include <assimp/IOSystem.hpp>
-#include <assimp/mesh.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/material.h>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
-#include <assimp/Macros.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/mesh.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/material.h>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
+#include <Assimp/Macros.h>
 
 using namespace Assimp;
 using namespace irr;

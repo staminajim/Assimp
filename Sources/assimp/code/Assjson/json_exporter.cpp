@@ -9,11 +9,11 @@ Licensed under a 3-clause BSD license. See the LICENSE file for more information
 #ifndef ASSIMP_BUILD_NO_EXPORT
 #ifndef ASSIMP_BUILD_NO_ASSJSON_EXPORTER
 
-#include <assimp/Importer.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/IOStream.hpp>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/IOStream.hpp>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
 
 #include <sstream>
 #include <limits>
@@ -23,7 +23,7 @@ Licensed under a 3-clause BSD license. See the LICENSE file for more information
 #define CURRENT_FORMAT_VERSION 100
 
 // grab scoped_ptr from assimp to avoid a dependency on boost. 
-//#include <assimp/../../code/BoostWorkaround/boost/scoped_ptr.hpp>
+//#include <Assimp/../../code/BoostWorkaround/boost/scoped_ptr.hpp>
 
 #include "mesh_splitter.h"
 

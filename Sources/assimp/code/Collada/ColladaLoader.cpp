@@ -46,18 +46,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "ColladaLoader.h"
 #include "ColladaParser.h"
 
-#include <assimp/anim.h>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/Importer.hpp>
-#include <assimp/importerdesc.h>
-#include <assimp/Defines.h>
+#include <Assimp/anim.h>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/Importer.hpp>
+#include <Assimp/importerdesc.h>
+#include <Assimp/Defines.h>
 
-#include <assimp/fast_atof.h>
-#include <assimp/ParsingUtils.h>
-#include <assimp/SkeletonMeshBuilder.h>
-#include <assimp/CreateAnimMesh.h>
-#include <assimp/ZipArchiveIOSystem.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/SkeletonMeshBuilder.h>
+#include <Assimp/CreateAnimMesh.h>
+#include <Assimp/ZipArchiveIOSystem.h>
 
 #include "time.h"
 #include "math.h"

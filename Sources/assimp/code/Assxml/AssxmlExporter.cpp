@@ -48,10 +48,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "PostProcessing/ProcessHelper.h"
 
-#include <assimp/version.h>
-#include <assimp/IOStream.hpp>
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
+#include <Assimp/version.h>
+#include <Assimp/IOStream.hpp>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
 
 #include <stdarg.h>
 

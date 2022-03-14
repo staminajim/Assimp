@@ -51,11 +51,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif
 
 #include "C4DImporter.h"
-#include <assimp/TinyFormatter.h>
+#include <Assimp/TinyFormatter.h>
 #include <memory>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
-#include <assimp/ai_assert.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/ai_assert.h>
 
 #if defined(_M_X64) || defined(__amd64__)
 #   define __C4D_64BIT

@@ -48,11 +48,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "3DS/3DSHelper.h"
 #include "PostProcessing/SplitLargeMeshes.h"
 
-#include <assimp/SceneCombiner.h>
-#include <assimp/StringComparison.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/Exporter.hpp>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/StringComparison.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/Exporter.hpp>
 
 #include <memory>
 

@@ -53,11 +53,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "PostProcessing/ProcessHelper.h"
 #include "PostProcessing/ConvertToLHProcess.h"
 
-#include <assimp/StringComparison.h>
-#include <assimp/SGSpatialSort.h>
-#include <assimp/ByteSwapper.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/StringComparison.h>
+#include <Assimp/SGSpatialSort.h>
+#include <Assimp/ByteSwapper.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 #include <sstream>

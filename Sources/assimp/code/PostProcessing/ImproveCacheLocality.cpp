@@ -52,10 +52,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "PostProcessing/ImproveCacheLocality.h"
 #include "Common/VertexTriangleAdjacency.h"
 
-#include <assimp/StringUtils.h>
-#include <assimp/postprocess.h>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
+#include <Assimp/StringUtils.h>
+#include <Assimp/postprocess.h>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
 #include <stdio.h>
 #include <stack>
 

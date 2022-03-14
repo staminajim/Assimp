@@ -42,12 +42,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 /** @file Default implementation of IOSystem using the standard C file functions */
 
-#include <assimp/StringComparison.h>
+#include <Assimp/StringComparison.h>
 
-#include <assimp/DefaultIOSystem.h>
-#include <assimp/DefaultIOStream.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/ai_assert.h>
+#include <Assimp/DefaultIOSystem.h>
+#include <Assimp/DefaultIOStream.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/ai_assert.h>
 #include <stdlib.h>
 
 #ifdef __unix__

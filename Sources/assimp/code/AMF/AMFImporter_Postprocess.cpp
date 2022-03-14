@@ -1,4 +1,4 @@
-﻿/*
+/*
 ---------------------------------------------------------------------------
 Open Asset Import Library (assimp)
 ---------------------------------------------------------------------------
@@ -51,9 +51,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "AMFImporter.hpp"
 
 // Header files, Assimp.
-#include <assimp/SceneCombiner.h>
-#include <assimp/StandardShapes.h>
-#include <assimp/StringUtils.h>
+#include <Assimp/SceneCombiner.h>
+#include <Assimp/StandardShapes.h>
+#include <Assimp/StringUtils.h>
 
 // Header files, stdlib.
 #include <iterator>

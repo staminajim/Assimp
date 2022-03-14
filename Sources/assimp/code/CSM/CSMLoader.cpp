@@ -50,16 +50,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef ASSIMP_BUILD_NO_CSM_IMPORTER
 
 #include "CSMLoader.h"
-#include <assimp/SkeletonMeshBuilder.h>
-#include <assimp/ParsingUtils.h>
-#include <assimp/fast_atof.h>
-#include <assimp/Importer.hpp>
+#include <Assimp/SkeletonMeshBuilder.h>
+#include <Assimp/ParsingUtils.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/Importer.hpp>
 #include <memory>
-#include <assimp/IOSystem.hpp>
-#include <assimp/anim.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/anim.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
 
 using namespace Assimp;
 

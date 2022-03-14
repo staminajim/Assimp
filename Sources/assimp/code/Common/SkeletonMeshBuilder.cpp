@@ -44,8 +44,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief Implementation of a little class to construct a dummy mesh for a skeleton
  */
 
-#include <assimp/scene.h>
-#include <assimp/SkeletonMeshBuilder.h>
+#include <Assimp/scene.h>
+#include <Assimp/SkeletonMeshBuilder.h>
 
 using namespace Assimp;
 

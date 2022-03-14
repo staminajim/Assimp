@@ -44,7 +44,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief STEP character handling, string un-escaping
  */
 #include "STEPFileEncoding.h"
-#include <assimp/fast_atof.h>
+#include <Assimp/fast_atof.h>
 #ifdef ASSIMP_USE_HUNTER
 #  include <utf8/utf8.h>
 #else

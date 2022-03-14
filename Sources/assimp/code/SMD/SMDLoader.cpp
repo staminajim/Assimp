@@ -46,15 +46,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #ifndef ASSIMP_BUILD_NO_SMD_IMPORTER
 
-#include <assimp/fast_atof.h>
-#include <assimp/SkeletonMeshBuilder.h>
-#include <assimp/Importer.hpp>
-#include <assimp/IOSystem.hpp>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/SkeletonMeshBuilder.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/importerdesc.h>
 #include <memory>
-#include <assimp/DefaultIOSystem.h>
+#include <Assimp/DefaultIOSystem.h>
 #include <tuple>
 
 // internal headers

@@ -45,15 +45,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  @brief Implementation of BaseImporter
  */
 
-#include <assimp/BaseImporter.h>
-#include <assimp/ParsingUtils.h>
+#include <Assimp/BaseImporter.h>
+#include <Assimp/ParsingUtils.h>
 #include "FileSystemFilter.h"
 #include "Importer.h"
-#include <assimp/ByteSwapper.h>
-#include <assimp/scene.h>
-#include <assimp/Importer.hpp>
-#include <assimp/postprocess.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/ByteSwapper.h>
+#include <Assimp/scene.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/postprocess.h>
+#include <Assimp/importerdesc.h>
 
 #include <ios>
 #include <list>

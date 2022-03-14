@@ -9,10 +9,10 @@
 #include "X3DExporter.hpp"
 
 // Header files, Assimp.
-#include <assimp/Exceptional.h>
-#include <assimp/StringUtils.h>
-#include <assimp/Exporter.hpp>
-#include <assimp/IOSystem.hpp>
+#include <Assimp/Exceptional.h>
+#include <Assimp/StringUtils.h>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/IOSystem.hpp>
 
 using namespace std;
 

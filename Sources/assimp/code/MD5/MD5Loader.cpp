@@ -49,17 +49,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef ASSIMP_BUILD_NO_MD5_IMPORTER
 
 // internal headers
-#include <assimp/RemoveComments.h>
+#include <Assimp/RemoveComments.h>
 #include "MD5Loader.h"
-#include <assimp/StringComparison.h>
-#include <assimp/fast_atof.h>
-#include <assimp/MathFunctions.h>
-#include <assimp/SkeletonMeshBuilder.h>
-#include <assimp/Importer.hpp>
-#include <assimp/scene.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/StringComparison.h>
+#include <Assimp/fast_atof.h>
+#include <Assimp/MathFunctions.h>
+#include <Assimp/SkeletonMeshBuilder.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/importerdesc.h>
 #include <memory>
 
 using namespace Assimp;

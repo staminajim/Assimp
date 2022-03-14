@@ -53,12 +53,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "PostProcessing/TextureTransform.h"
 #include "PostProcessing/ConvertToLHProcess.h"
 
-#include <assimp/StringUtils.h>
-#include <assimp/IOSystem.hpp>
-#include <assimp/anim.h>
-#include <assimp/scene.h>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/StringUtils.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/anim.h>
+#include <Assimp/scene.h>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/importerdesc.h>
 
 #include <memory>
 

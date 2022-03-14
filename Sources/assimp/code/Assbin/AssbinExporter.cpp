@@ -49,11 +49,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "Common/assbin_chunks.h"
 #include "PostProcessing/ProcessHelper.h"
 
-#include <assimp/version.h>
-#include <assimp/IOStream.hpp>
-#include <assimp/IOSystem.hpp>
-#include <assimp/Exporter.hpp>
-#include <assimp/Exceptional.h>
+#include <Assimp/version.h>
+#include <Assimp/IOStream.hpp>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/Exporter.hpp>
+#include <Assimp/Exceptional.h>
 
 #ifdef ASSIMP_BUILD_NO_OWN_ZLIB
 #   include <zlib.h>

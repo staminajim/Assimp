@@ -41,13 +41,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 #include <utility>
 #include "MMDPmxParser.h"
-#include <assimp/StringUtils.h>
+#include <Assimp/StringUtils.h>
 #ifdef ASSIMP_USE_HUNTER
 #  include <utf8/utf8.h>
 #else
 #  include "../contrib/utf8cpp/source/utf8.h"
 #endif
-#include <assimp/Exceptional.h>
+#include <Assimp/Exceptional.h>
 
 namespace pmx
 {

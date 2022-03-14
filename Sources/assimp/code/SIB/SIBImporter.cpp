@@ -56,19 +56,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // internal headers
 #include "SIBImporter.h"
-#include <assimp/ByteSwapper.h>
-#include <assimp/StreamReader.h>
-#include <assimp/TinyFormatter.h>
+#include <Assimp/ByteSwapper.h>
+#include <Assimp/StreamReader.h>
+#include <Assimp/TinyFormatter.h>
 #ifdef ASSIMP_USE_HUNTER
 #  include <utf8/utf8.h>
 #else
 //#  include "../contrib/ConvertUTF/ConvertUTF.h"
 #  include "../contrib/utf8cpp/source/utf8.h"
 #endif
-#include <assimp/IOSystem.hpp>
-#include <assimp/DefaultLogger.hpp>
-#include <assimp/scene.h>
-#include <assimp/importerdesc.h>
+#include <Assimp/IOSystem.hpp>
+#include <Assimp/DefaultLogger.hpp>
+#include <Assimp/scene.h>
+#include <Assimp/importerdesc.h>
 
 #include <map>
 

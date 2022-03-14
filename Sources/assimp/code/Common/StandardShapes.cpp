@@ -47,11 +47,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *  http://geometrictools.com/Documentation/PlatonicSolids.pdf.
  */
 
-#include <assimp/StandardShapes.h>
-#include <assimp/StringComparison.h>
+#include <Assimp/StandardShapes.h>
+#include <Assimp/StringComparison.h>
 #include <stddef.h>
-#include <assimp/Defines.h>
-#include <assimp/mesh.h>
+#include <Assimp/Defines.h>
+#include <Assimp/mesh.h>
 
 namespace Assimp    {
 

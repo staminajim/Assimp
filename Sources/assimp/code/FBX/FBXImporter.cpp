@@ -54,10 +54,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "FBXDocument.h"
 #include "FBXConverter.h"
 
-#include <assimp/StreamReader.h>
-#include <assimp/MemoryIOWrapper.h>
-#include <assimp/Importer.hpp>
-#include <assimp/importerdesc.h>
+#include <Assimp/StreamReader.h>
+#include <Assimp/MemoryIOWrapper.h>
+#include <Assimp/Importer.hpp>
+#include <Assimp/importerdesc.h>
 
 namespace Assimp {
 
