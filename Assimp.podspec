@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
     s.preserve_paths = 'Sources/**/*'
 
     s.pod_target_xcconfig = {
+      'DEFINES_MODULE' => 'YES',
       'GCC_PREPROCESSOR_DEFINITIONS' => 'ASSIMP_BUILD_NO_IFC_IMPORTER ASSIMP_BUILD_NO_C4D_IMPORTER',
       'HEADER_SEARCH_PATHS' => '$(PODS_TARGET_SRCROOT)/Sources/assimp $(PODS_TARGET_SRCROOT)/Sources/assimp/include $(PODS_TARGET_SRCROOT)/Sources/assimp/include/assimp $(PODS_TARGET_SRCROOT)/Sources/assimp/include/assimp/. $(PODS_TARGET_SRCROOT)/Sources/assimp/code $(PODS_TARGET_SRCROOT)/Sources/assimp/contrib/openddlparser/include $(PODS_TARGET_SRCROOT)/Sources/assimp/contrib/irrXML $(PODS_TARGET_SRCROOT)/Sources/assimp/contrib/unzip $(PODS_TARGET_SRCROOT)/Sources/assimp/contrib/rapidjson/include',
       'CLANG_WARN_DOCUMENTATION_COMMENTS' => 'NO',
